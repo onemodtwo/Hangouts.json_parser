@@ -1,2 +1,2 @@
-# Hangouts.json_parser
-Revision to the parser in adein/hangouts_to_sms repo
+#### Revision to the parser in adein/hangouts_to_sms repo
+This repo contains one file: a drop-in replacement for `hangouts_parser.py` in the adein/hangouts_to_sms repo. When I used that code out of the box, it failed. It seems the Hangouts.json file produced by Google Takeout may be very slightly different in format now (2018) from what it was then (before now). If you're trying to use that code and it fails, try dropping this file in to replace the one included there. Otherwise, follow his directions and it's all good
